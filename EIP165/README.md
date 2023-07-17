@@ -1,4 +1,4 @@
-#What is EIP165?
+What is EIP165?
 
 EIP 165 is a standard interface detector.
 
