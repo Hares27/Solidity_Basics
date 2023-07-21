@@ -4,9 +4,7 @@ EIP 165 is a standard interface detector.
 
 As the name suggest it will help to detect which interfaces are supported and implemented by a contract.
 
-This will helps prevent token from getting stuck in a smart contract that does not support related token standard.
-
-What is means
+This will helps prevent token from getting stuck in a smart contract that does not support related token standard.What it means.
  If a token owned by a person , the person will intiate the transaction.
  If a token belongs address which is held by contract then it has to support token standards like(ERC20,ERC721,ERC1155,ERC3525) inorder to intiate transaction fro transfering tokens.If the contract dont know  about token standards which token realted to ,the tokens will be stuck in that contract.
 
