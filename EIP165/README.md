@@ -14,9 +14,9 @@ What is means
 
 #### Contract One: Do you support "Arjun" tokens.
 
-##### contract Two: Yes
+#### contract Two: Yes
 
-##### Contract One: Great, here are "Arjun" tokens.
+#### Contract One: Great, here are "Arjun" tokens.
 
 This makes to prevent tokens to be stuck in a contract because we are checking contract before transfering.
 
@@ -26,10 +26,10 @@ How can we ask whether a contract will support a specific interface or not.
 Generally an interface contains methods. We can ask the contract whether it will support the methods in interface.It will be difficult if we have more methods defined under a interface.
 For this we need to have one identifier for an interface .
 
-How can we get identifier for an interface
-+ There two approaches to get this:
+#### How can we get identifier for an interface
+###### There two approaches to get this:
 + By using Keccak256 hash algorithm . We find Keccak256 hash for every method in interface and doing xor operation on them. At last you will get byte4 format identifier.
-Another one is  using  ***"type(interfaceName)".interfaceId***
++ Another one is  using  ***type(interfaceName).interfaceId***
  
 
  
