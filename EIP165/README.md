@@ -14,7 +14,7 @@ What is means
 
 #### Contract One: Do you support "Arjun" tokens.
 
-#### contract Two: Yes
+#### Contract Two: Yes
 
 #### Contract One: Great, here are "Arjun" tokens.
 
