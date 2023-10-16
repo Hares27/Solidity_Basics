@@ -14,7 +14,7 @@ contract ERC1271{
     }
 
   
-  function isValidSignature( bytes32 _hash,  bytes memory _signature) public  returns (bytes4 magicValue)
+  function isValidSignature( bytes32 _hash,  bytes memory _signature) public view returns (bytes4 magicValue)
     {
       
          if (recoverSigner(_hash, _signature) == owner) {
@@ -26,7 +26,7 @@ contract ERC1271{
     }
 
 
- function recoverSigner(bytes32 _hash,bytes memory _signature) internal returns (address signer) {
+ function recoverSigner(bytes32 _hash,bytes memory _signature) internal pure returns (address signer) {
     require(_signature.length == 65, "SignatureValidator#recoverSigner: invalid signature length");
 bytes32[3] memory _sig;
     
